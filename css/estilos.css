@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700&display=swap');
+.body{font-family: Roboto;}
+
+.background {
+  position: relative;
+  width: 50%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.overlay {
+	width: 50%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: translate( 0px, 0px)!important;
+  z-index: 2;
+	
+}
+
+
+.d-block{
+	width: 35%;
+}
+
+.firma{
+	background-image: url("../img/firma.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center center;
+	max-width: 100%;
+	
+}
+
+
+
+
+.bg1{background: #FF7417}
+.bg2{background: #EF820D}
+.bg3{background: #CB5D0D}
+.bg4{background: #fff}
+.bg5{color: #FF7417}
+.bg6{color:#fff}
+.bg7{color: #EF820D}
+.bg8{color: #CB5D0D}
+.bg9{background: #f1c40f}
+.bg10{background: #f39c12}
+.bg11{background:white}
+
+
+
+body{ font-family: "roboto";}
+
+.navbar-brand{ font-size: 30px;}
+.nav-link{ font-size:20px}
+
+
+
+.foto{
+	width: 80%;
+}
+
+.redes{
+	width: 90%;
+	 display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.fotoparareir1{
+	
+	 display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.texto1reir{
+	text-align: center;
+	align-content: center;
+}
+
+.centrartexto{
+	align-content: center;
+}
+.corona{
+	width: 3%;
+
+}
+
+@media (min-width: 768px){
+	.fotoparareir1{
+		width: 30% !important;
+	}
+	.textocentrado{
+		padding-left: 10em;
+	}
+	
+	.corona{
+	width: 3%;
+
+}
+}
+
+@media (max-width: 768px){
+	.fotoparareir1{
+		max-width: 100% !important;
+	}
+	.textocentrado{
+		padding-left: none;
+	}
+	.corona{
+	width: 25%;
+
+}
+	
+}

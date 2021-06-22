@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>Probando Bootstrap</title>
+	
+	<!-- Instalamos Bootstrap CSS--> 
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	
+	<link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body id="page-top">
+	
+<nav class="navbar navbar-expand-md navbar-dark fixed-top bg1">
+      <a class="navbar-brand" href="index.html">Oprah Winfrey</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="quienesoprah.html">Quien es <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="parareirseunrato.html">Para reir un poco</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="momentosemblematicos.html">Momentos emblematicos</a>
+          </li>
+			 <li class="nav-item">
+            <a class="nav-link" href="equipo.html">Equipo</a>
+          </li>
+        </ul>
+		 
+  
+      </div>
+    </nav>
+	
+	<main role="main" class="container" style="padding-top: 6em">
+ <div class="container text-right p-3"> <h1 class="bg7" >Explorando la Fan Page</h1>
+		<a>12-06-2021</a>
+	</div>
+
+		
+	<section class="container-fluid p-5">
+		<div class="container">
+			<div class="row">
+				
+				<div class="col-lg-4 col-md-6 col-sm-12 bg-image hover-overlay hover-zoom ripple"> 
+			    <img class="w-100" src="img/1home.jpg" alt="">
+				<a href="#">
+                <div class="mask" style="background-color:rgba(211,109,13,0.50)">
+					<h3 class="d-flex justify-content-center align-items-center h-100 text-white mb-0" onclick="myFunctionQuien()" >Quien es</h3>
+				</div>
+                </a>
+				</div>
+			
+				<div class="col-lg-4 col-md-6 col-sm-12 bg-image hover-overlay hover-zoom ripple nav-link"  href="parareirseunrato.html" target="_blank">
+					<img class="w-100" src="img/2home.jpg" alt="">
+				<a href="#">
+                <div class="mask" style="background-color:rgba(211,109,13,0.50)" onclick="myFunctionReirse()" >
+				<h3 id="reirse" class="d-flex justify-content-center align-items-center h-100 text-white mb-0" >Para reir un poco</h3>
+				</div>
+                </a>
+				</div>
+				<div class="col-lg-4 col-md-6 col-sm-12 bg-image hover-overlay hover-zoom ripple">
+					<img class="w-100" src="img/3home.jpg" alt="">
+		<a href="#">
+                <div class="mask" style="background-color:rgba(211,109,13,0.50)">
+			<h3 class="d-flex justify-content-center align-items-center h-100 text-white mb-0" onclick="myFunctionMomentos()">Momentos emblematicos</h3>
+			</div>
+                </a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+		<div class="container text-center p-5 firma" > <h4>Pagina creada en pos de conocer mas sobre la vida de Oprah y de <br> generar un espacio en comun para todos aquellos que verdaderamente la admiran</h4>  <br> <br> <br>
+			<a class="bg3 p-2 page-scroll btn btn-xl" href="https://guadalupe-barreiro.github.io/CV-OPRAH/" target="_blank"  style="border-radius:25px ;">Curriculum</a>	
+			</div>
+	
+	</main>
+	
+
+
+<footer>
+<div class="container-fluid text-center bg1 p-5">
+	<h6>«Copyright © 2021 | Barreiro Guadalupe»</h6>
+	<a>Poryecto Integrador Final - Produccion digital II - Universidad de Palermo</a>
+</div>
+</footer>
+	
+	
+<!-- Bootstrap JS -->
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+<link
+  href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+  rel="stylesheet"
+/>
+<!-- MDB -->
+<link
+  href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.css"
+  rel="stylesheet"
+/>
+<script>
+	function myFunctionReirse() {
+	  window.open("parareirseunrato.html");
+	}
+	function myFunctionQuien() {
+	  window.open("quienesoprah.html");
+	}
+	function myFunctionMomentos() {
+	  window.open("momentosemblematicos.html");
+	}
+	</script>
+</body>
+</html>
