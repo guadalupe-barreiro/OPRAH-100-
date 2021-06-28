@@ -1,4 +1,591 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700&display=swap');
+
+.animate__hinge{
+	animation-fill-mode: initial;
+}
+
+
+.frame {
+ 
+  width: 40vmin;
+  height: 35vmin;
+  background: #fff;
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  grid-template-rows: repeat(12, 1fr);
+}
+.frame .cell {
+  width: calc(100% + 0.5px);
+  height: calc(100% + 0.5px);
+  background-image: var(--img);
+  background-size: 900% 1200%;
+}
+.frame .cell:nth-of-type(1) {
+  background-position: 0% 0%;
+  transform: rotate(0.75turn);
+  transition: all 1.29734343s;
+}
+.frame .cell:nth-of-type(2) {
+  background-position: -100% 0%;
+  transform: rotate(0.25turn);
+  transition: all 1.47547655s;
+}
+.frame .cell:nth-of-type(3) {
+  background-position: -200% 0%;
+  transform: rotate(0.25turn);
+  transition: all 1.31689252s;
+}
+.frame .cell:nth-of-type(4) {
+  background-position: -300% 0%;
+  transform: rotate(0.25turn);
+  transition: all 1.19909939s;
+}
+.frame .cell:nth-of-type(5) {
+  background-position: -400% 0%;
+  transform: rotate(0.25turn);
+  transition: all 1.4574858s;
+}
+.frame .cell:nth-of-type(6) {
+  background-position: -500% 0%;
+  transform: rotate(0.25turn);
+  transition: all 1.13770882s;
+}
+.frame .cell:nth-of-type(7) {
+  background-position: -600% 0%;
+  transform: rotate(-0.75turn);
+  transition: all 1.55926198s;
+}
+.frame .cell:nth-of-type(8) {
+  background-position: -700% 0%;
+  transform: rotate(0.25turn);
+  transition: all 1.78489159s;
+}
+.frame .cell:nth-of-type(9) {
+  background-position: -800% 0%;
+  transform: rotate(0.25turn);
+  transition: all 1.58026136s;
+}
+.frame .cell:nth-of-type(10) {
+  background-position: 0% -100%;
+  transform: rotate(0.25turn);
+  transition: all 1.85750049s;
+}
+.frame .cell:nth-of-type(11) {
+  background-position: -100% -100%;
+  transform: rotate(0.25turn);
+  transition: all 1.98067706s;
+}
+.frame .cell:nth-of-type(12) {
+  background-position: -200% -100%;
+  transform: rotate(0.25turn);
+  transition: all 1.75090492s;
+}
+.frame .cell:nth-of-type(13) {
+  background-position: -300% -100%;
+  transform: rotate(0.25turn);
+  transition: all 1.23880493s;
+}
+.frame .cell:nth-of-type(14) {
+  background-position: -400% -100%;
+  transform: rotate(0.25turn);
+  transition: all 1.70654516s;
+}
+.frame .cell:nth-of-type(15) {
+  background-position: -500% -100%;
+  transform: rotate(0.25turn);
+  transition: all 1.77502654s;
+}
+.frame .cell:nth-of-type(16) {
+  background-position: -600% -100%;
+  transform: rotate(0.25turn);
+  transition: all 1.97857579s;
+}
+.frame .cell:nth-of-type(17) {
+  background-position: -700% -100%;
+  transform: rotate(0.25turn);
+  transition: all 1.7885569s;
+}
+.frame .cell:nth-of-type(18) {
+  background-position: -800% -100%;
+  transform: rotate(0.25turn);
+  transition: all 1.8442032s;
+}
+.frame .cell:nth-of-type(19) {
+  background-position: 0% -200%;
+  transform: rotate(0.75turn);
+  transition: all 1.79630036s;
+}
+.frame .cell:nth-of-type(20) {
+  background-position: -100% -200%;
+  transform: rotate(0.25turn);
+  transition: all 1.88133014s;
+}
+.frame .cell:nth-of-type(21) {
+  background-position: -200% -200%;
+  transform: rotate(0.25turn);
+  transition: all 1.71690543s;
+}
+.frame .cell:nth-of-type(22) {
+  background-position: -300% -200%;
+  transform: rotate(0.25turn);
+  transition: all 1.94467388s;
+}
+.frame .cell:nth-of-type(23) {
+  background-position: -400% -200%;
+  transform: rotate(0.25turn);
+  transition: all 1.34694458s;
+}
+.frame .cell:nth-of-type(24) {
+  background-position: -500% -200%;
+  transform: rotate(0.25turn);
+  transition: all 1.81319932s;
+}
+.frame .cell:nth-of-type(25) {
+  background-position: -600% -200%;
+  transform: rotate(0.25turn);
+  transition: all 1.54353081s;
+}
+.frame .cell:nth-of-type(26) {
+  background-position: -700% -200%;
+  transform: rotate(0.25turn);
+  transition: all 1.40612113s;
+}
+.frame .cell:nth-of-type(27) {
+  background-position: -800% -200%;
+  transform: rotate(0.75turn);
+  transition: all 1.8958435s;
+}
+.frame .cell:nth-of-type(28) {
+  background-position: 0% -300%;
+  transform: rotate(0.25turn);
+  transition: all 1.14499164s;
+}
+.frame .cell:nth-of-type(29) {
+  background-position: -100% -300%;
+  transform: rotate(0.25turn);
+  transition: all 1.59728059s;
+}
+.frame .cell:nth-of-type(30) {
+  background-position: -200% -300%;
+  transform: rotate(0.25turn);
+  transition: all 1.71513395s;
+}
+.frame .cell:nth-of-type(31) {
+  background-position: -300% -300%;
+  transform: rotate(0.25turn);
+  transition: all 1.28139244s;
+}
+.frame .cell:nth-of-type(32) {
+  background-position: -400% -300%;
+  transform: rotate(0.25turn);
+  transition: all 1.32952917s;
+}
+.frame .cell:nth-of-type(33) {
+  background-position: -500% -300%;
+  transform: rotate(0.25turn);
+  transition: all 1.05311521s;
+}
+.frame .cell:nth-of-type(34) {
+  background-position: -600% -300%;
+  transform: rotate(0.25turn);
+  transition: all 1.78848308s;
+}
+.frame .cell:nth-of-type(35) {
+  background-position: -700% -300%;
+  transform: rotate(-0.25turn);
+  transition: all 1.16769727s;
+}
+.frame .cell:nth-of-type(36) {
+  background-position: -800% -300%;
+  transform: rotate(-0.25turn);
+  transition: all 1.04941363s;
+}
+.frame .cell:nth-of-type(37) {
+  background-position: 0% -400%;
+  transform: rotate(-0.25turn);
+  transition: all 1.61825289s;
+}
+.frame .cell:nth-of-type(38) {
+  background-position: -100% -400%;
+  transform: rotate(0.25turn);
+  transition: all 1.00998841s;
+}
+.frame .cell:nth-of-type(39) {
+  background-position: -200% -400%;
+  transform: rotate(0.75turn);
+  transition: all 1.67230463s;
+}
+.frame .cell:nth-of-type(40) {
+  background-position: -300% -400%;
+  transform: rotate(-0.75turn);
+  transition: all 1.3005745s;
+}
+.frame .cell:nth-of-type(41) {
+  background-position: -400% -400%;
+  transform: rotate(0.25turn);
+  transition: all 1.21411827s;
+}
+.frame .cell:nth-of-type(42) {
+  background-position: -500% -400%;
+  transform: rotate(0.25turn);
+  transition: all 1.27763016s;
+}
+.frame .cell:nth-of-type(43) {
+  background-position: -600% -400%;
+  transform: rotate(0.25turn);
+  transition: all 1.8093035s;
+}
+.frame .cell:nth-of-type(44) {
+  background-position: -700% -400%;
+  transform: rotate(0.25turn);
+  transition: all 1.34845517s;
+}
+.frame .cell:nth-of-type(45) {
+  background-position: -800% -400%;
+  transform: rotate(0.25turn);
+  transition: all 1.0892701s;
+}
+.frame .cell:nth-of-type(46) {
+  background-position: 0% -500%;
+  transform: rotate(0.25turn);
+  transition: all 1.36646509s;
+}
+.frame .cell:nth-of-type(47) {
+  background-position: -100% -500%;
+  transform: rotate(0.25turn);
+  transition: all 1.34156923s;
+}
+.frame .cell:nth-of-type(48) {
+  background-position: -200% -500%;
+  transform: rotate(0.25turn);
+  transition: all 1.37383293s;
+}
+.frame .cell:nth-of-type(49) {
+  background-position: -300% -500%;
+  transform: rotate(0.25turn);
+  transition: all 1.06560972s;
+}
+.frame .cell:nth-of-type(50) {
+  background-position: -400% -500%;
+  transform: rotate(-0.25turn);
+  transition: all 1.39192303s;
+}
+.frame .cell:nth-of-type(51) {
+  background-position: -500% -500%;
+  transform: rotate(0.25turn);
+  transition: all 1.49658233s;
+}
+.frame .cell:nth-of-type(52) {
+  background-position: -600% -500%;
+  transform: rotate(-0.25turn);
+  transition: all 1.92892218s;
+}
+.frame .cell:nth-of-type(53) {
+  background-position: -700% -500%;
+  transform: rotate(0.25turn);
+  transition: all 1.57749651s;
+}
+.frame .cell:nth-of-type(54) {
+  background-position: -800% -500%;
+  transform: rotate(0.75turn);
+  transition: all 1.57502505s;
+}
+.frame .cell:nth-of-type(55) {
+  background-position: 0% -600%;
+  transform: rotate(0.25turn);
+  transition: all 1.98677213s;
+}
+.frame .cell:nth-of-type(56) {
+  background-position: -100% -600%;
+  transform: rotate(0.25turn);
+  transition: all 1.43062678s;
+}
+.frame .cell:nth-of-type(57) {
+  background-position: -200% -600%;
+  transform: rotate(-0.25turn);
+  transition: all 1.45756957s;
+}
+.frame .cell:nth-of-type(58) {
+  background-position: -300% -600%;
+  transform: rotate(0.25turn);
+  transition: all 1.32878709s;
+}
+.frame .cell:nth-of-type(59) {
+  background-position: -400% -600%;
+  transform: rotate(0.75turn);
+  transition: all 1.57556519s;
+}
+.frame .cell:nth-of-type(60) {
+  background-position: -500% -600%;
+  transform: rotate(0.25turn);
+  transition: all 1.55040743s;
+}
+.frame .cell:nth-of-type(61) {
+  background-position: -600% -600%;
+  transform: rotate(-0.25turn);
+  transition: all 1.73781314s;
+}
+.frame .cell:nth-of-type(62) {
+  background-position: -700% -600%;
+  transform: rotate(0.25turn);
+  transition: all 1.88736867s;
+}
+.frame .cell:nth-of-type(63) {
+  background-position: -800% -600%;
+  transform: rotate(0.25turn);
+  transition: all 1.80371823s;
+}
+.frame .cell:nth-of-type(64) {
+  background-position: 0% -700%;
+  transform: rotate(-0.25turn);
+  transition: all 1.45499446s;
+}
+.frame .cell:nth-of-type(65) {
+  background-position: -100% -700%;
+  transform: rotate(0.75turn);
+  transition: all 1.37495506s;
+}
+.frame .cell:nth-of-type(66) {
+  background-position: -200% -700%;
+  transform: rotate(-0.25turn);
+  transition: all 1.9520251s;
+}
+.frame .cell:nth-of-type(67) {
+  background-position: -300% -700%;
+  transform: rotate(0.25turn);
+  transition: all 1.73457566s;
+}
+.frame .cell:nth-of-type(68) {
+  background-position: -400% -700%;
+  transform: rotate(0.25turn);
+  transition: all 1.48285797s;
+}
+.frame .cell:nth-of-type(69) {
+  background-position: -500% -700%;
+  transform: rotate(-0.25turn);
+  transition: all 1.40608239s;
+}
+.frame .cell:nth-of-type(70) {
+  background-position: -600% -700%;
+  transform: rotate(-0.25turn);
+  transition: all 1.17147677s;
+}
+.frame .cell:nth-of-type(71) {
+  background-position: -700% -700%;
+  transform: rotate(0.25turn);
+  transition: all 1.02677496s;
+}
+.frame .cell:nth-of-type(72) {
+  background-position: -800% -700%;
+  transform: rotate(0.25turn);
+  transition: all 1.79884505s;
+}
+.frame .cell:nth-of-type(73) {
+  background-position: 0% -800%;
+  transform: rotate(0.25turn);
+  transition: all 1.98761589s;
+}
+.frame .cell:nth-of-type(74) {
+  background-position: -100% -800%;
+  transform: rotate(0.25turn);
+  transition: all 1.02256309s;
+}
+.frame .cell:nth-of-type(75) {
+  background-position: -200% -800%;
+  transform: rotate(0.75turn);
+  transition: all 1.43181257s;
+}
+.frame .cell:nth-of-type(76) {
+  background-position: -300% -800%;
+  transform: rotate(0.25turn);
+  transition: all 1.33620247s;
+}
+.frame .cell:nth-of-type(77) {
+  background-position: -400% -800%;
+  transform: rotate(0.25turn);
+  transition: all 1.86149873s;
+}
+.frame .cell:nth-of-type(78) {
+  background-position: -500% -800%;
+  transform: rotate(0.25turn);
+  transition: all 1.41421756s;
+}
+.frame .cell:nth-of-type(79) {
+  background-position: -600% -800%;
+  transform: rotate(0.25turn);
+  transition: all 1.83776249s;
+}
+.frame .cell:nth-of-type(80) {
+  background-position: -700% -800%;
+  transform: rotate(-0.25turn);
+  transition: all 1.79033213s;
+}
+.frame .cell:nth-of-type(81) {
+  background-position: -800% -800%;
+  transform: rotate(0.25turn);
+  transition: all 1.86377755s;
+}
+.frame .cell:nth-of-type(82) {
+  background-position: 0% -900%;
+  transform: rotate(-0.25turn);
+  transition: all 1.91113804s;
+}
+.frame .cell:nth-of-type(83) {
+  background-position: -100% -900%;
+  transform: rotate(0.75turn);
+  transition: all 1.02724495s;
+}
+.frame .cell:nth-of-type(84) {
+  background-position: -200% -900%;
+  transform: rotate(0.25turn);
+  transition: all 1.50308009s;
+}
+.frame .cell:nth-of-type(85) {
+  background-position: -300% -900%;
+  transform: rotate(0.25turn);
+  transition: all 1.10540066s;
+}
+.frame .cell:nth-of-type(86) {
+  background-position: -400% -900%;
+  transform: rotate(0.25turn);
+  transition: all 1.59031043s;
+}
+.frame .cell:nth-of-type(87) {
+  background-position: -500% -900%;
+  transform: rotate(0.25turn);
+  transition: all 1.3941134s;
+}
+.frame .cell:nth-of-type(88) {
+  background-position: -600% -900%;
+  transform: rotate(-0.25turn);
+  transition: all 1.02271064s;
+}
+.frame .cell:nth-of-type(89) {
+  background-position: -700% -900%;
+  transform: rotate(0.75turn);
+  transition: all 1.9559158s;
+}
+.frame .cell:nth-of-type(90) {
+  background-position: -800% -900%;
+  transform: rotate(0.25turn);
+  transition: all 1.65420521s;
+}
+.frame .cell:nth-of-type(91) {
+  background-position: 0% -1000%;
+  transform: rotate(-0.25turn);
+  transition: all 1.97853642s;
+}
+.frame .cell:nth-of-type(92) {
+  background-position: -100% -1000%;
+  transform: rotate(0.25turn);
+  transition: all 1.52291193s;
+}
+.frame .cell:nth-of-type(93) {
+  background-position: -200% -1000%;
+  transform: rotate(-0.25turn);
+  transition: all 1.76003855s;
+}
+.frame .cell:nth-of-type(94) {
+  background-position: -300% -1000%;
+  transform: rotate(0.75turn);
+  transition: all 1.40109448s;
+}
+.frame .cell:nth-of-type(95) {
+  background-position: -400% -1000%;
+  transform: rotate(0.25turn);
+  transition: all 1.36341455s;
+}
+.frame .cell:nth-of-type(96) {
+  background-position: -500% -1000%;
+  transform: rotate(0.25turn);
+  transition: all 1.81176518s;
+}
+.frame .cell:nth-of-type(97) {
+  background-position: -600% -1000%;
+  transform: rotate(0.25turn);
+  transition: all 1.49887804s;
+}
+.frame .cell:nth-of-type(98) {
+  background-position: -700% -1000%;
+  transform: rotate(0.25turn);
+  transition: all 1.6249958s;
+}
+.frame .cell:nth-of-type(99) {
+  background-position: -800% -1000%;
+  transform: rotate(0.25turn);
+  transition: all 1.78657955s;
+}
+.frame .cell:nth-of-type(100) {
+  background-position: 0% -1100%;
+  transform: rotate(0.75turn);
+  transition: all 1.05266714s;
+}
+.frame .cell:nth-of-type(101) {
+  background-position: -100% -1100%;
+  transform: rotate(0.25turn);
+  transition: all 1.79986308s;
+}
+.frame .cell:nth-of-type(102) {
+  background-position: -200% -1100%;
+  transform: rotate(0.25turn);
+  transition: all 1.21170676s;
+}
+.frame .cell:nth-of-type(103) {
+  background-position: -300% -1100%;
+  transform: rotate(0.25turn);
+  transition: all 1.55040125s;
+}
+.frame .cell:nth-of-type(104) {
+  background-position: -400% -1100%;
+  transform: rotate(-0.25turn);
+  transition: all 1.53940444s;
+}
+.frame .cell:nth-of-type(105) {
+  background-position: -500% -1100%;
+  transform: rotate(0.25turn);
+  transition: all 1.09232314s;
+}
+.frame .cell:nth-of-type(106) {
+  background-position: -600% -1100%;
+  transform: rotate(-0.25turn);
+  transition: all 1.20463401s;
+}
+.frame .cell:nth-of-type(107) {
+  background-position: -700% -1100%;
+  transform: rotate(0.25turn);
+  transition: all 1.67116353s;
+}
+.frame .cell:nth-of-type(108) {
+  background-position: -800% -1100%;
+  transform: rotate(-0.25turn);
+  transition: all 1.90160931s;
+}
+.frame:hover .cell {
+  transform: rotate(0);
+}
+
+
+
+
+#getImage{
+	width: 10%;
+	
+}
+.form-check{
+	padding-left: 0px !important;
+}
+.form-check-input {
+    position:inherit;
+    margin-top: 0px; 
+    margin-left: 0px;
+}
+
+
+
+.navbar-dark .navbar-toggler-icon, .navbar-light .navbar-toggler-icon {
+    background-color: #FF7417 !important;
+	background-image:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")!important;
+}
 .body{font-family: Roboto;}
 
 .background {
@@ -10,14 +597,15 @@
 }
 
 .overlay {
-	width: 50%;
+  width: 50%;
   position: absolute;
   left: 0;
   top: 0;
-  transform: translate( 0px, 0px)!important;
+  transform: translate( 0px, 0px)!important ;
   z-index: 2;
 	
 }
+
 
 
 .d-block{
@@ -44,9 +632,7 @@
 .bg6{color:#fff}
 .bg7{color: #EF820D}
 .bg8{color: #CB5D0D}
-.bg9{background: #f1c40f}
-.bg10{background: #f39c12}
-.bg11{background:white}
+
 
 
 
@@ -55,21 +641,25 @@ body{ font-family: "roboto";}
 .navbar-brand{ font-size: 30px;}
 .nav-link{ font-size:20px}
 
-
+.curriculum{
+	background: #CB5D0D !important;
+	color: #fff !important;
+}
 
 .foto{
 	width: 80%;
 }
 
-.redes{
-	width: 90%;
+
+.fotoparareir1{
+	
 	 display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
-.fotoparareir1{
-	
+.redes{
+	width: 90%;
 	 display: block;
   margin-left: auto;
   margin-right: auto;
@@ -84,11 +674,26 @@ body{ font-family: "roboto";}
 	align-content: center;
 }
 .corona{
-	width: 3%;
+	width: 10%;
 
 }
 
-@media (min-width: 768px){
+section#contacto {
+    background-color: rgba(240,156,85,0.58);
+	border-radius:25px ;
+	padding: 10px;
+}
+
+
+
+@media screen and (min-width:992px){
+.fotoparareir1{
+		width: 30% !important;
+	}
+	
+
+/* Pantalla Media*/
+@media screen and (min-width:768px) and (max-width:992px){
 	.fotoparareir1{
 		width: 30% !important;
 	}
@@ -97,21 +702,27 @@ body{ font-family: "roboto";}
 	}
 	
 	.corona{
-	width: 3%;
-
+	width: 50%;
 }
+	
 }
-
-@media (max-width: 768px){
-	.fotoparareir1{
+	
+/* Pantalla media a chica*/
+@media screen and (min-width:640px) and (max-width:768px){
+ .fotoparareir1{
 		max-width: 100% !important;
 	}
 	.textocentrado{
 		padding-left: none;
 	}
 	.corona{
-	width: 25%;
+	width: 30%;
 
 }
 	
-}
+}	
+	
+/* Pantalla chica*/
+@media screen (max-width:640px){
+	
+
