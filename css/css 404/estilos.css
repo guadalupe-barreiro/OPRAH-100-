@@ -1,0 +1,876 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html{
+	font-family: 'Bebas Neue';
+	font-size: 16px;
+	color: rgba(255,255,255,1.00);
+}
+
+.header{
+	position: fixed;
+	background-color: rgba(0,0,0,1.00);
+	opacity: 1;
+}
+
+.arriba{
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	padding: 15px;
+}
+
+.nombreoprah{
+	width: 50%;
+	float: left;
+	margin-left: 3%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+
+.barramenu{
+	width: 17%;
+	float: right;
+	margin-right: 10%;
+	margin-top: 3%;
+	margin-bottom: 2%;
+}
+
+body{
+	background-color: rgba(0,0,0,1.00);
+	opacity: 1;
+}
+.bodyindex {
+    width: 100%;
+    max-width: 100%;
+	
+    background-image: url("../img/fondoyfirma.jpg");
+    background-size: 100%;
+	background-repeat: no-repeat;
+    height: 105vh;
+	background-color: rgba(0,0,0,1.00);
+	opacity: 1;
+}
+
+.bodyshow {
+    width: 100%;
+    max-width: 100%;
+	
+    background-image: url("../img/fondoshow.jpg");
+	background-repeat: no-repeat;
+    background-size: 100%;
+    height: 105vh;
+	
+	opacity: 1;
+}
+
+
+.titulos{
+	color: rgba(255,255,255,1.00);
+	margin-right: 5%;
+	padding-top: 10%;
+}
+
+h2{
+	text-align: end;
+	margin-top: 5%;
+	margin-bottom: 3%;
+}
+
+h1{
+	text-align: end;
+	font-size: 80px;
+
+}
+
+.botonreadmore{
+	position:relative;
+	left: 60%;
+	width: 40%;	
+}
+
+.readmore{
+	color: rgba(212,125,8,1.00);
+	background-color: rgba(0,0,0,0.00);
+	padding: 10px;
+	border:6px solid rgba(212,125,8,1.00);
+	width: 20%;
+	
+	text-align: center;
+}
+
+.c3columnas { 
+	width: 90%; 
+	margin-left: 5%;
+	margin-top: 5%;
+	display: flex;
+	
+}
+
+.c3columnas .imagen{
+	width: 70%; 
+	margin-left: 5%;
+	display: flex;
+}
+
+
+
+.imagen .imagen1txt{
+	color: rgba(255,255,255,1.00);
+	text-align: center;
+	font-size: 25px;
+	opacity: 0;             
+    transition: 0.6s; 
+	
+	position: absolute;
+	left: 10%;
+	margin-top: 5%;
+}
+
+           .imagen:hover .imagen1txt{
+	opacity: 1;
+    background-color:rgba(0,0,0,0.63);
+	border:6px solid rgba(0,0,0,0.63);
+	color: rgba(255,255,255,1.00);
+}
+
+.imagen .imagen2txt{
+	color: rgba(255,255,255,1.00);
+	
+	text-align: center;
+	
+	font-size: 25px;    
+	opacity: 0;             
+    transition: 0.6s; 
+	
+	position: absolute;
+	left: 44%;
+	margin-top: 5%;
+}
+
+           .imagen:hover .imagen2txt{
+	opacity: 1;
+    background-color:rgba(0,0,0,0.63);
+	border:6px solid rgba(0,0,0,0.63);
+	color: rgba(255,255,255,1.00);
+}
+
+.imagen .imagen3txt{
+	color: rgba(255,255,255,1.00);
+	
+	text-align: center;
+	
+	font-size: 25px;
+    opacity: 0;             
+    transition: 0.6s; 
+	
+	position: absolute;
+	left: 73%;
+	margin-top: 5%;
+}
+
+           .imagen:hover .imagen3txt{
+	opacity: 1;
+    background-color:rgba(0,0,0,0.63);
+	border:6px solid rgba(0,0,0,0.63);
+	color: rgba(255,255,255,1.00);
+}
+
+
+.txtmedalla{
+	font-size: 20px;
+	padding-top: 13%;
+	text-align: center;
+	font-family: Arial;
+}
+
+.contenedorslider{
+display: flex;
+  justify-content: center;
+  align-items: center;
+	padding-top: 3%;
+	
+}
+
+.txtmedallasub{
+	font-size: 16px;
+	text-align: center;
+	font-family: Arial;
+}
+
+.footer{
+	
+	
+}
+.textoyfoto{display: flex;}
+
+.primerparrafobio{
+	padding-top:19%;
+	width: 50%;
+	
+}
+.parrafote {
+	font-family: Arial;
+	font-size: 20px;
+	text-align: left;
+	
+	
+	margin-left: 30%;
+}
+
+.yungoprah{
+	margin-top: 40%;
+	width: 40%;
+	border-radius: 80%;
+	margin-left: 40%;
+	
+}
+
+.contenedorB{
+	width: 90%; 
+	margin-left: 10%;
+	margin-top: 3%;
+	display: flex;
+	
+	
+}
+
+.contenedorB .oprajB{
+	width: 70%; 
+	margin-left: 3%;
+	display: flex;
+}
+
+.dosparrafosB{
+	
+	text-align: center;
+	margin-top: 5%;
+	margin-left: 12%;
+	margin-right: 12%;
+	font-family: Arial;
+	font-size: 20px; 
+	padding-bottom: 10%;
+}
+
+.footerB{
+	
+	text-align: left;
+	
+	
+}
+
+.footerE{
+	
+	text-align: left;
+	
+	
+}
+
+.lb-loader,.lightbox{text-align:center;line-height:0;}
+
+.lb-dataContainer:after,.lb-outerContainer:after{content:"";clear:both;}
+
+body.lb-disable-scrolling{overflow:hidden;}
+
+.lightboxOverlay{position:absolute;top:0;left:0;z-index:9999;background-color:#000;filter:alpha(Opacity=80);opacity:.8;display:none;}
+
+.lightbox{position:absolute;left:0;width:100%;z-index:10000;font-weight:400;}
+
+.lightbox .lb-image{display:block;height:auto;max-width:inherit;max-height:none;border:transparent;}
+
+.lightbox a img{border:none;}
+
+.lb-outerContainer{position:relative;width:250px;height:250px;margin:0 auto;border-radius:4px;background-color:transparent;}
+
+.lb-loader,.lb-nav{position:fixed;left:0;}
+
+.lb-outerContainer:after{display:table;}
+
+.lb-loader{top:43%;height:25%;width:100%;}
+
+.lb-cancel{display:block;width:32px;height:32px;margin:0 auto;background:url("../img/loading.gif")no-repeat;}
+
+.lb-nav{top:50%;height:100%;margin-left:25%;z-index:10;}
+
+.lb-container>.nav{left:0;}
+
+.lb-nav a{outline:0;background-image:url(data:image/gif;base64,R0lGODlhAQABAPAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==)}
+
+.lb-next,.lb-prev{height:100%;cursor:pointer;display:block;}
+
+.lb-nav a.lb-prev {display:block;float:left;width:50%;height:60px;background:url("../img/prev.png")top left no-repeat;text-align:right;outline:0;filter:alpha(Opacity=70);opacity:.7;-webkit-transition:opacity .6s;-moz-transition:opacity .6s;-o-transition:opacity .6s;transition:opacity .6s;}
+
+.lb-nav a.lb-prev:hover{filter:alpha(Opacity=100);opacity:1;}
+
+.lb-nav a.lb-next {display:block;float:right;width:50%;height:60px;background:url("../img/next.png")top right no-repeat;text-align:right;outline:0;filter:alpha(Opacity=70);opacity:.7;-webkit-transition:opacity .6s;-moz-transition:opacity .6s;-o-transition:opacity .6s;transition:opacity .6s;}
+
+
+div .lb-nav { width: 50%; height:auto;}
+div .lb-dataContainer{display: block;width: fit-content;}
+
+.lb-nav a.lb-next:hover{filter:alpha(Opacity=100);opacity:1;}
+
+.lb-dataContainer{margin:0 auto;padding-top:5px;width:100%;border-bottom-left-radius:4px;border-bottom-right-radius:4px;}
+
+.lb-dataContainer:after{display:table;}
+
+.lb-data{padding:0 4px;color:#ccc;}
+
+.lb-data .lb-details{width:85%;float:left;text-align:left;line-height:1.1em;}
+
+.lb-data .lb-caption{font-size:13px;font-weight:700;line-height:1em;}
+
+.lb-data .lb-caption a{color:#4ae;}
+
+.lb-data .lb-number{display:block;clear:left;padding-bottom:1em;font-size:12px;color:#999;}
+
+.lb-data .lb-close {display:block;float:right;width:30px;height:30px;background:url("../img/close.png")top right no-repeat;text-align:right;outline:0;filter:alpha(Opacity=70);opacity:.7;-webkit-transition:opacity .2s;-moz-transition:opacity .2s;-o-transition:opacity .2s;transition:opacity .2s;}
+
+.lb-data .lb-close:hover{cursor:pointer;filter:alpha(Opacity=100);opacity:1;}
+
+
+.fondoyfirmaS {
+    width: 100%;
+    max-width: 100%;
+	
+    background-image: url("../img/fondoshow.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 110vh;
+	
+	opacity: 0.5
+}
+
+
+
+.videos{
+	margin-left: 5%;
+	padding-top: 13%;
+}
+.P1show{
+	margin-top: 15%;
+	margin-left: 30%;
+	margin-right: 10%;
+	margin-bottom: 5%;
+	font-size: 20px;
+	font-family: Arial;
+	text-align: center;
+	background-color: rgba(0,0,0,0.45);
+	border:6px solid rgba(212,125,8,1.00);
+	padding-top: 4%;
+	padding-left: 2%;
+	padding-right: 2%;
+}
+
+.P2show{
+	font-size: 20px;
+	font-family: Arial;
+	text-align: center;
+	background-color: rgba(0,0,0,0.45);
+	padding-top: 4%;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-bottom: 4%;
+	margin-right: 7%;
+	margin-left: 5%;
+	margin-top: 3%;
+		
+}
+
+.picshow{
+	width: 50%;
+	padding-top: 10%;
+	margin-left: 20%;
+	margin-bottom: 5%;
+}
+
+#navegador li {  
+   
+	position: absolute; 
+	width: 30%;
+	float: right;
+	left: 70%;
+	margin-top: 2%;
+	
+	color: rgba(0,0,0,0.00);
+ }
+
+
+a{
+color: rgba(255,255,255,1.00);text-decoration-line: none;	
+}
+
+#navegadormenu li {  
+   text-decoration-line: none;
+	
+	position: absolute; 
+	width: 30%;
+	float: right;
+	left: 70%;
+	margin-top: 4%;
+	
+	color: rgba(0,0,0,0.00);
+ }
+
+#subseccion1 { position: absolute; 
+	            top: 100%; 
+	            left: 60%;  
+                background-color: #000000; 
+	            display: none;
+	            color: rgba(255,255,255,1.00);
+}	
+
+
+
+.nashville{
+	padding-top: 8%;
+	font-family: Arial;
+  margin-left: 25%;
+	font-size: 20px;
+	width: 30%;
+}
+
+.organizacion{
+	color: rgba(212,125,8,1.00);
+	background-color: rgba(0,0,0,0.00);
+	
+	border:3px solid rgba(212,125,8,1.00);
+	
+}
+.edad19{
+	margin-top: 5%;
+}
+.imagenedad19{
+	width: 70%;
+	margin-left: 27%;
+}
+
+.fotofundacion{
+	width: 60%;
+	margin-left: 21%;
+	margin-top: 5%;
+	
+}
+
+.txfundacion{
+margin-top: 10%;	
+}
+
+.cuerpo{
+	display: flex;
+}
+
+@media(max-width:768px) {
+	
+	.fondoyfirma {
+		           height: 100%;
+                 }
+	.titulos{
+	         color: rgba(255,255,255,1.00);
+	         position: absolute;
+	         top: 10%;
+             left: 20%;
+	         margin-right: 5%;
+             }
+
+    h1{	
+	   font-size: 40px;
+	  }
+
+     .readmore{
+	            color: rgba(212,125,8,1.00);
+	            background-color: rgba(0,0,0,0.00);
+	            padding: 10px;
+	            border:6px solid rgba(212,125,8,1.00);
+	            width: 20%;
+	
+	            text-align: center;
+	            font-size: 20px;
+	            
+               }
+
+     .c3columnas { 
+	               width: 90%; 
+	               left: 10%;
+	               margin-top: 0px;
+	               display: flex;
+	               flex-wrap: wrap;
+	
+                   }
+
+       .c3columnas .imagen{
+	                       width: 90%; 
+	                       display: flex;
+                           }
+	
+	   .imagen1txt{
+	               color: rgba(255,255,255,1.00);
+	               position: absolute;
+	               text-align: center;
+	               top: 25%;
+	               margin-left: 3%;
+	               font-size: 25px;
+	               opacity: 1;      
+                   }
+
+        .imagen2txt{
+	                color: rgba(255,255,255,1.00);
+	                position: absolute;
+	                text-align: center;
+	                top: 57%;
+                    margin-left: 6%;
+	                font-size: 25px;
+	                opacity: 1;
+                    }
+
+         .imagen3txt{
+	                 color: rgba(255,255,255,1.00);
+	                 position: absolute;
+	                 text-align: center;
+	                 top: 90%;
+                     margin-left: 5%;
+	                 font-size: 25px;
+                     opacity: 1;             
+                     }
+	      .footer{
+			      top: 160%;		
+	             }
+	      .txtmedalla{
+	                  font-size: 20px;
+	                  position: absolute;
+	                  text-align: center;
+	                  top: 10%;
+	                  left: 5%;
+                     }
+
+          .contenedorslider{
+	                        position: absolute;
+	                        top: 20%;
+	                        left: 0px;
+}
+	      .mySlides{
+		             width: 100%;
+	                }
+
+          .txtmedallasub{
+	                     font-size: 16px;
+	                     text-align: center;
+	                     position:absolute;
+	                     top: 60%;
+	                     left: 5%;
+                        }
+	      .footerE{
+		           top:90%;
+	              }
+	
+	      .videos{
+	              top: 5%;
+                 }
+          .P1show{
+	              margin-top: 10%;
+                 }
+	      .footerS{
+		           top:110%;
+	               }
+	       .parrafote {
+	                   font-size: 16px;
+	                   text-align: center;
+	                   position:absolute;
+	                   top: 10%;
+	                   right: 10%;
+	                   padding-left: 5%;
+                       }
+
+           .yungoprah{
+	                  position:absolute;
+	                  top: 60%;
+	                  left: 30%;
+	                  width: 40%;
+	                  border-radius: 80%;
+                      }
+           .contenedorB{
+	                    width: 90%; 
+	                    margin-left: 5%;
+	                    margin-top: 5%;
+	                    display: flex;
+	                    flex-wrap: wrap;
+	                    position: absolute;
+	                    top: 120%;
+                        }
+
+           .dosparrafosB{
+	                     top:67%;
+	                     font-size: 16px; 
+	                     padding-bottom: 10%;
+                         }
+	
+           .footerB{
+	                top:230%;
+	
+                    }
+	
+}
+
+@media(max-width:480px) {
+
+	.fondoyfirma {
+		           height: 100%;
+                 }
+	.titulos{
+	         color: rgba(255,255,255,1.00);
+	         position: absolute;
+	         top: 10%;
+             left: 20%;
+	         margin-right: 5%;
+             }
+
+    h1{	
+	   font-size: 40px;
+	  }
+
+     .readmore{
+	            color: rgba(212,125,8,1.00);
+	            background-color: rgba(0,0,0,0.00);
+	            padding: 10px;
+	            border:6px solid rgba(212,125,8,1.00);
+	            width: 20%;
+	
+	            text-align: center;
+	            font-size: 20px;
+	            position: fixed;
+		    margin-top: -15%;
+               }
+
+     .c3columnas { 
+	               width: 80%; 
+	               left: 10%;
+	               margin-top: 90%;
+	               display: flex;
+	               flex-wrap: wrap;
+	
+	               
+                   }
+
+       .c3columnas .imagen{
+	                       width: 90%; 
+	                       display: flex;
+                           }
+	   .imagen1txt{
+	               color: rgba(255,255,255,1.00);
+	               position: absolute;
+	               text-align: center;
+	               top: 25%;
+	               margin-left: 3%;
+	               font-size: 25px;
+	               opacity: 1;      
+                   }
+
+        .imagen2txt{
+	                color: rgba(255,255,255,1.00);
+	                position: absolute;
+	                text-align: center;
+	                top: 57%;
+                    margin-left: 6%;
+	                font-size: 25px;
+	                opacity: 1;
+                    }
+
+         .imagen3txt{
+	                 color: rgba(255,255,255,1.00);
+	                 position: absolute;
+	                 text-align: center;
+	                 top: 90%;
+                     margin-left: 5%;
+	                 font-size: 25px;
+                     opacity: 1;             
+                     }
+	      .footer{
+			      top: 160%;		
+	             }
+	      .txtmedalla{
+	                  font-size: 20px;
+	                  position: absolute;
+	                  text-align: center;
+	                  top: 10%;
+	                  left: 5%;
+                     }
+
+          .contenedorslider{
+	                        position: absolute;
+	                        top: 20%;
+	                        left: 0px;
+}
+	      .mySlides{
+		             width: 100%;
+	                }
+
+          .txtmedallasub{
+	                     font-size: 16px;
+	                     text-align: center;
+	                     position:absolute;
+	                     top: 60%;
+	                     left: 5%;
+                        }
+	      .footerE{
+		           top:90%;
+	              }
+	
+	      .videos{
+	              top: 5%;
+                 }
+          .P1show{
+	              margin-top: 10%;
+                 }
+	      .footerS{
+		           top:110%;
+	               }
+	       .parrafote {
+	                   font-size: 16px;
+	                   text-align: center;
+	                   position:absolute;
+	                   top: 10%;
+	                   right: 10%;
+	                   padding-left: 5%;
+                       }
+
+           .yungoprah{
+	                  position:absolute;
+	                  top: 60%;
+	                  left: 30%;
+	                  width: 40%;
+	                  border-radius: 80%;
+                      }
+           .contenedorB{
+	                    width: 90%; 
+	                    margin-left: 5%;
+	                    margin-top: 5%;
+	                    display: flex;
+	                    flex-wrap: wrap;
+	                    position: absolute;
+	                    top: 120%;
+                        }
+
+           .dosparrafosB{
+	                     top:67%;
+	                     font-size: 16px; 
+	                     padding-bottom: 10%;
+                         }
+	
+           .footerB{
+	                top:230%;
+	
+                    }
+	
+}
+
+.body404{
+	position: fixed;
+	background-color: rgba(0,0,0,1.00);	
+}
+
+.texto404{
+	font-family: 'Bebas Neue';
+	color: rgba(255,255,255,1.00);
+	text-align: center;
+}
+
+.h1404{
+	font-size: 70px;
+	text-shadow: 0.1em 0.1em rgba(212,125,8,1.00);
+	margin-block-start: 0em;
+	margin-block-end: 0em;
+	text-align: center;
+
+}
+
+@keyframes text{
+    0%{
+        transform: translateX(1000px);
+        
+    }
+    100%{
+        transform: translateX(0px);
+    }
+
+}
+
+.h2404{
+	font-size: 50px;
+	margin-block-start: 0em;
+	margin-block-end: 0em;
+	text-align: center;
+}
+
+.p404{
+	margin-block-start: 0em;
+	font-size: 35px;
+	margin-block-end: 0em;
+	animation-name: text;
+    animation-duration: 3.5s;
+}
+
+
+.zoomIt{
+	color: rgba(212,125,8,1.00);
+display:inline-block;
+-webkit-transition:-webkit-transform 1s ease-out;
+-moz-transition:-moz-transform 1s ease-out;
+-o-transition:-o-transform 1s ease-out;
+-ms-transition:-ms-transform 1s ease-out;
+transition:transform 1s ease-out;
+}
+.zoomIt:hover{
+-moz-transform: scale(1.1);
+-webkit-transform: scale(1.1);
+-o-transform: scale(1.1);
+-ms-transform: scale(1.1);
+transform: scale(1.1)
+}
+
+.imagenes{
+	margin-top: 10%;
+}
+
+.Oprah img{
+	width: 60%;
+	margin: 0 auto;	
+	position: relative;
+
+	left: 20%;
+}
+
+
+.animacionbrazo img{
+	width: 53%;
+	margin: 0 auto;
+	position: fixed;
+	bottom: 50%;
+	left: 25%;
+}
+
+.animacionbrazo{
+	width: 100%;
+	margin: 0 auto;	
+	
+	animation-name: movbrazo;
+	animation-duration: 2000ms;
+	animation-iteration-count: infinite;
+}
+
+@keyframes movbrazo{
+	0% 
+	{transform: scale(1,1)}
+	
+	50% 
+	{transform: scale(1.2,1.2)}
+	
+	100% 
+	{transform: scale(1,1)}
+}
