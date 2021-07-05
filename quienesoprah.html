@@ -223,10 +223,12 @@ Luego, firmo un trato con “King World” y el show paso a llamarse “The Opra
   <div class="form-group">
 	  <div class="form-check">
    
-    <label class="form-check-label" for="exampleCheck1">Dejanos tu like:</label>
-    <input type="button" id="getimage" alt="" src="img/heart-regular.svg" class="justify-content-center form-control " onclick="imagefun()" value="Change Image" required>
-    
+    <label class="form-check-label" for="exampleCheck1">Like apretando la caja blanca:</label>
+    <input src="img/heart-regular.svg" class="form-check-input justify-content-center" id="image" type="checkbox" alt=""  onclick="imagefun()" value="Change Image" required>
+    <img src="img/heart-regular.svg" class="form-check-input justify-content-center " id="getImage" type="button" onclick="imagefun()" value="Change Image" alt="" >
   </div>
+	  <label for="exampleInputEmail1">Mail:</label>
+    <input name="email" type="email" class="form-control formulario-css" id="exampleFormControlInput1" placeholder="name@example.com" required>
     <label for="exampleInputEmail1">Aportar informacion:</label>
     <input name="mensaje" class="form-control formulario-css" id="exampleFormControlTextarea1" rows="3" placeholder="Escribir aqui.." required>
     <small id="emailHelp" class="form-text text-muted">No compartiremos tu nombre ni data.</small>
